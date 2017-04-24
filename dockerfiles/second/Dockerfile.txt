@@ -1,0 +1,6 @@
+FROM ubuntu:trusty
+MAINTAINER asquarezone
+RUN apt-get update 
+ADD Hi.txt /Hi.txt
+CMD ["/bin/bash"]
+
